@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "bench-creator",
+  "displayName": "Bench Creator",
+  "version": "0.1.0",
+  "description": "Capture private, reproducible AI coding benchmark cases from real repository work.",
+  "author": {
+    "name": "EvanLuo42"
+  },
+  "homepage": "https://github.com/EvanLuo42/bench-creator",
+  "repository": "https://github.com/EvanLuo42/bench-creator",
+  "license": "MIT",
+  "keywords": [
+    "benchmark",
+    "evaluation",
+    "coding-agent",
+    "reproducibility"
+  ],
+  "skills": "./skills/"
+}

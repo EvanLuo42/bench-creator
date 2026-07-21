@@ -1,0 +1,14 @@
+{
+  "name": "bench-creator",
+  "description": "Reproducible benchmark tooling for AI coding work.",
+  "owner": {
+    "name": "EvanLuo42"
+  },
+  "plugins": [
+    {
+      "name": "bench-creator",
+      "source": ".",
+      "description": "Capture reproducible AI coding benchmark cases from real repository work."
+    }
+  ]
+}

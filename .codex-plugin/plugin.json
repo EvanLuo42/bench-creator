@@ -1,0 +1,36 @@
+{
+  "name": "bench-creator",
+  "version": "0.1.0",
+  "description": "Capture reproducible AI coding benchmark cases from real repository work.",
+  "author": {
+    "name": "EvanLuo42",
+    "url": "https://github.com/EvanLuo42"
+  },
+  "homepage": "https://github.com/EvanLuo42/bench-creator",
+  "repository": "https://github.com/EvanLuo42/bench-creator",
+  "license": "MIT",
+  "keywords": [
+    "benchmark",
+    "evaluation",
+    "coding-agent",
+    "reproducibility"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Bench Creator",
+    "shortDescription": "Capture private, reproducible AI benchmark cases",
+    "longDescription": "Checkpoint repositories before AI changes, harvest reusable difficulties, validate privacy, and run candidates in restored workspaces.",
+    "developerName": "EvanLuo42",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/EvanLuo42/bench-creator",
+    "defaultPrompt": [
+      "Checkpoint this repository before changes and suggest a benchmark case afterward.",
+      "Capture this task as a private reproducible benchmark case.",
+      "Validate and run the ready cases in my global Bench."
+    ]
+  }
+}
